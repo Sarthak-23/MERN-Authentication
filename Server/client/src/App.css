@@ -26,6 +26,7 @@ nav {
 nav ul {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 10px;
   list-style: none;
 }
@@ -104,6 +105,25 @@ input:focus {
 .btn_submit:hover {
   background-color: transparent;
   border: 2px solid green !important;
+  color: black;
+}
+
+.logout_button {
+  background-color: red;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+  width: 5rem;
+  margin-left: 5px;
+  border-radius: 50px;
+  transition: 0.2s ease-in;
+  font-weight: bold;
+  border: 2px solid transparent;
+}
+
+.logout_button:hover {
+  background-color: white;
+  border: 2px solid transparent !important;
   color: black;
 }
 
